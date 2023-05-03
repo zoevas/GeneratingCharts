@@ -4,7 +4,7 @@ import pandas as pd
 
 
 df = pd.read_csv("./Development_Modification.CSV")
-ax = df.plot.bar(x='activity')
+ax = df.plot.bar(x='activity', color=['#6495ED', '#B6D0E2'])
 ax.set_ylabel('Minutes')
 
 activities = ['Development', 'Modification']

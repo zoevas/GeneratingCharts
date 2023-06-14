@@ -19,7 +19,7 @@ pie, ax = plt.subplots(figsize=[15,10])
 
 plt.pie(x=data, autopct="%.1f%%", explode=[0.01]*3, labels=keys, pctdistance=0.3, colors=palette_color)
 plt.title("Iteration A", fontsize=18);
-pie.savefig("ParticipantsPieA.png",  dpi=600)
+pie.savefig("png/ParticipantsPieA.png",  dpi=600)
 
 data2 = [3, 7, 4]
 
@@ -27,5 +27,5 @@ pie2, ax = plt.subplots(figsize=[15,10])
 
 plt.pie(x=data2, autopct="%.1f%%", explode=[0.01]*3, labels=keys, pctdistance=0.3, colors=palette_color)
 plt.title("Iteration B", fontsize=18);
-pie2.savefig("ParticipantsPieB.png",  dpi=600)
+pie2.savefig("png/ParticipantsPieB.png",  dpi=600)
 

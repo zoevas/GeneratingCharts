@@ -12,15 +12,6 @@ fig_width = width_in_pixels / dpi
 
 #way 1 # gridspec https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html
 
-
-
-
-
-
-
-
-
-
 fig = plt.figure()
 gs = fig.add_gridspec(2, 2, hspace=0.425, wspace=0.125)
 axes = gs.subplots(sharex=True)
